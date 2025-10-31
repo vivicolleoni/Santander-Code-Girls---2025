@@ -1,4 +1,4 @@
-# ☁️ Gerenciamento de Instâncias EC2 e AMIs  
+# ☁️ Gerenciamento de Instâncias EC2
 ### Usando o **AWS Toolkit for Visual Studio**
 
 ![AWS Toolkit](https://img.shields.io/badge/AWS-Toolkit-orange?logo=amazonaws)
