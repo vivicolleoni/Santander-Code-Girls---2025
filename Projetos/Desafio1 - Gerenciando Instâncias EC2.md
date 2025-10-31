@@ -56,16 +56,10 @@ Ele fornece volumes de armazenamento duráveis que podem ser **montados como dis
 
 ---
 
-> 💡 **Dica:**  
-> Quer deixar o README ainda mais bonito?  
-> Você pode adicionar imagens de tela (screenshots) do Visual Studio com o Toolkit.  
-> Exemplo:
-> ```markdown
-> ![Exemplo AWS Explorer](./img/aws-explorer.png)
-> ```
+![Descrição da imagem](imagens/EC2.png)
 
 ---
 
 ### ✨ Autor
-Desenvolvido por *[seu-nome]* — Projeto de estudo AWS EC2.
+Desenvolvido por *[Viviane]* — Projeto de estudo AWS EC2.
 
