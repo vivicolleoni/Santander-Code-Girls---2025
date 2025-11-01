@@ -41,3 +41,14 @@ O objetivo é criar uma arquitetura automatizada que processa arquivos enviados 
 
 ![Descrição da Imagem](imagens/S3eLambda.png)
 
+
+📤 Usuário faz o upload do arquivo que criou
+        ↓
+🧩 Step 1: Grava no S3
+        ↓
+🧩 Setep2: Verifica se há arquivos
+        ↓
+🧩 Step 3: Dispara Trigger (Lambda)
+        ↓
+🧩 Setep4: Grava no Bando de Dados (DynamoDB)
+      
