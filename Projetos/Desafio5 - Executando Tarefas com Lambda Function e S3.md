@@ -35,9 +35,9 @@ O **AWS Lambda** pode ser executado por no máximo 15 minutos e sua execução p
 ---
 ## 🧩 Exemplo de Utilização
 
-Exemplo de projeto: Upload de arquivo com processamento e registro no DynamoDB
+Um usuário necessita fazer um upload de arquivo com processamento e registro no DynamoDB
 
-Este desafio tem como objetivo criar uma arquitetura automatizada que processa arquivos enviados para o Amazon S3, utilizando o AWS Lambda para gerenciar o fluxo e o DynamoDB como banco de dados de registro.
+O objetivo é criar uma arquitetura automatizada que processa arquivos enviados para o Amazon S3, utilizando o AWS Lambda para gerenciar o fluxo e o DynamoDB como banco de dados de registro.
 
 ![Descrição da Imagem](imagens/S3eLambda.png)
 
