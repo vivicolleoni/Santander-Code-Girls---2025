@@ -12,8 +12,7 @@
 **AWS CloudFormatio** é um modelo/template a ser seguido que descreve os recursos necessários da AWS, **automatizando** seu provisionamento e configuração, eliminando dessa forma configurações manuais permitindo foco no gerenciamento de aplicações.
 É um processo simples e intuitivo de se realizar dentro da AWS.
 
-![Descrição da imagem] (imagens/AWS CloudFormation.png)
-
+![Descrição da Imagem](imagens/AWSCloudFormation.png)
 
 | Benefício                | Descrição                                                                   |
 | ------------------------ | ----------------------------------------------------------------------------|
@@ -21,3 +20,43 @@
 |  **Padronização**        | Cria-se um modelo padrão de stacks que podem ser replicados.                |
 |  **Economia de Custo**   | Usando o modelo padrão evita-se novas análises e avaliações.                |
 |  **Segurança**           | Garante que os recursos são criados com regras e políticas de segurança.    |
+
+
+---
+## 🧩 Arquivos do AWS CloudFormation
+
+Os arquivos para criação de templates podem ser criados via linguagem JSON ou YAML. Sendo o JSON baseado em chave-valor e o YAML uma linguagem mais simples e também mais preferida pelos usuários.
+
+Exemplos de templates:
+
+### Exemplo JSON
+
+```text
+{
+  "Resources": {
+    "MyInstance": {
+      "Type": "AWS::EC2::Instance",
+      "Properties": {
+        "InstanceType": "t2.micro",
+        "ImageId": "ami-12345678"
+      }
+    }
+  }
+}
+```
+
+### Exemplo YAML
+
+```text
+Resources:
+  MyInstance:
+    Type: "AWS::EC2::Instance"
+    Properties:
+      InstanceType: "t2.micro"
+      ImageId: "ami-12345678"
+```
+
+## AWS CLoudFormation x Terraform
+
+O Terraform também é uma ferramenta de automação de IaC suportado por vários provedores de Cloud. Já o AWS CLoud Formation é suportado somente no ambiente AWS.
+
