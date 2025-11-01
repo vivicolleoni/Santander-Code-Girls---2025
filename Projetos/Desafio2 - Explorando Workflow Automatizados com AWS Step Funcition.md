@@ -22,12 +22,16 @@ Ele ajuda a coordenar **funções Lambda, tarefas EC2, ECS, DynamoDB, S3, SNS** 
 - 📊 **Monitoramento Integrado:** acompanha a execução de cada etapa no Console AWS (CloudWatch).  
 - 🧱 **Integração Total:** funciona com Lambda, ECS, Glue, SageMaker, SQS, SNS e muito mais.  
 
+---
+
 ## 🔹 Principais Benefícios:
 - Automação de tarefas com controle de execução.
 - Redução de código “colado” entre serviços.
 - Visualização clara dos fluxos e resultados.
 - Integração com dezenas de serviços AWS.
 - Monitoramento e rastreamento detalhado por etapa.
+
+- ---
 
 ## 💡 Exemplo de Utilização
 
