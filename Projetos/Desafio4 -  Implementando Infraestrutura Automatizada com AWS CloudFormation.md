@@ -9,7 +9,10 @@
 ---
 ## ⚙️ O que é o AWS CloudFormation 
 
-**AWS CloudFormatio** é um modelo/template a ser seguido que descrevem os recursos necessários da AWS, **automazindo** seu provisionamento e configuração, eliminando dessa forma configurações manuais permitindo foco no gerenciamento de aplicações.
+**AWS CloudFormatio** é um modelo/template a ser seguido que descreve os recursos necessários da AWS, **automatizando** seu provisionamento e configuração, eliminando dessa forma configurações manuais permitindo foco no gerenciamento de aplicações.
+É um processo simples e intuitivo de se realizar dentro da AWS.
+
+![Descrição da imagem](imagens/AWS CloudFormation.png)
 
 | Benefício                | Descrição                                                                   |
 | ------------------------ | ----------------------------------------------------------------------------|
