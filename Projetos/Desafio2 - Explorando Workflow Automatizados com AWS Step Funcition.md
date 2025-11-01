@@ -1,4 +1,4 @@
-# 🌀 AWS Step Functions  
+# 🌀 Explorando Workflow Automatizados com AWS Step Funcition  
 
 ![AWS](https://img.shields.io/badge/AWS-Cloud-orange?logo=amazonaws)
 ![StepFunctions](https://img.shields.io/badge/Step%20Functions-Orquestra%C3%A7%C3%A3o%20de%20Servi%C3%A7os-blueviolet?logo=awslambda)
