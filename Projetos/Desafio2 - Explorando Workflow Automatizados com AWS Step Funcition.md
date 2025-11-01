@@ -16,13 +16,18 @@ Ele ajuda a coordenar **funções Lambda, tarefas EC2, ECS, DynamoDB, S3, SNS** 
 
 ## 🧩 Características Principais
 
-- 🔁 **Orquestração Visual:** constrói fluxos de trabalho usando diagramas interativos.  
+- 🔁 **Orquestração Visual:** constrói fluxos de trabalho usando diagramas interativos. Fácil utlização.  
 - ⚡ **Serverless:** sem necessidade de gerenciar servidores.  
 - 🧠 **Tolerância a falhas:** reexecuta etapas automaticamente em caso de erro.  
-- 📊 **Monitoramento Integrado:** acompanha a execução de cada etapa no Console AWS.  
+- 📊 **Monitoramento Integrado:** acompanha a execução de cada etapa no Console AWS (CloudWatch).  
 - 🧱 **Integração Total:** funciona com Lambda, ECS, Glue, SageMaker, SQS, SNS e muito mais.  
 
----
+## 🔹 Principais Benefícios:
+- Automação de tarefas com controle de execução.
+- Redução de código “colado” entre serviços.
+- Visualização clara dos fluxos e resultados.
+- Integração com dezenas de serviços AWS.
+- Monitoramento e rastreamento detalhado por etapa.
 
 ## 💡 Exemplo de Utilização
 
@@ -43,3 +48,19 @@ Representado visualmente:
 [Atualizar Estoque]
        ↓
 [Enviar Confirmação]
+```
+Cada bloco é uma etapa (“state”) coordenada pelo Step Functions.
+Se uma etapa falhar, o fluxo pode repetir automaticamente ou seguir outro caminho, conforme as regras definidas no JSON do workflow.
+
+Toda execução pode ser acompanha via AWS CloudWatch.
+
+---
+
+## 🌩️ Conclusão
+
+O AWS Step Functions me permitiu entender, de forma prática, como construir **fluxos automatizados** que unem vários serviços da AWS.
+Essa abordagem ajuda a criar sistemas eficientes, flexíveis e fáceis de manter, eliminando etapas manuais e acelerando o desenvolvimento.
+
+---
+## Referências
+[📘 Documentação Oficial AWS Step Functions](https://docs.aws.amazon.com/pt_br/step-functions/latest/dg/welcome.html)
