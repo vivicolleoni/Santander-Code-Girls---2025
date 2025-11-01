@@ -7,3 +7,13 @@
 ![Tipo](https://img.shields.io/badge/Tipo-Automação-lightgrey)
 
 ---
+## ⚙️ O que é o AWS CloudFormation 
+
+**AWS CloudFormatio** é um modelo/template a ser seguido que descrevem os recursos necessários da AWS, **automazindo** seu provisionamento e configuração, eliminando dessa forma configurações manuais permitindo foco no gerenciamento de aplicações.
+
+| Benefício                | Descrição                                                                   |
+| ------------------------ | ----------------------------------------------------------------------------|
+|  **Automação**           | Automatiza o processo de criação, configuração e gerenciamento de recursos. |
+|  **Padronização**        | Cria-se um modelo padrão de stacks que podem ser replicados.                |
+|  **Economia de Custo**   | Usando o modelo padrão evita-se novas análises e avaliações.                |
+|  **Segurança**           | Garante que os recursos são criados com regras e políticas de segurança.    |
