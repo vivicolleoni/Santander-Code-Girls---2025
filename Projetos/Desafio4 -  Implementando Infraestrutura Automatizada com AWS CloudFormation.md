@@ -55,8 +55,19 @@ Resources:
       InstanceType: "t2.micro"
       ImageId: "ami-12345678"
 ```
+---
 
 ## AWS CLoudFormation x Terraform
 
 O Terraform também é uma ferramenta de automação de IaC suportado por vários provedores de Cloud. Já o AWS CLoud Formation é suportado somente no ambiente AWS.
 
+---
+
+## 🌩️ Conclusão
+
+AWS CloudFormation é uma ótima ferramenta para replicação de recursos de infraestrutura mantendo o nível de padronização, gerenciamento e segurança.
+
+----
+
+## Referências
+[📘 Documentação Oficial AWS CloudFormation](https://docs.aws.amazon.com/pt_br/forecast/latest/dg/tutorial-cloudformation.html)
