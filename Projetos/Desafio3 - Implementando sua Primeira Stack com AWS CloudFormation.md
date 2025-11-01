@@ -38,5 +38,5 @@ Ao criar esse template no CloudFormation, será criada uma stack e dentro dela o
 
 ## 🌩️ Conclusão
 
-As stacks são o uma facilidade da automação de infraestrutura como código (IaC) na AWS, visto que elas trazem traz organização, automação e consistência ao gerenciamento de infraestrutura na nuvem, o que torna o AWS CloudFormation uma ferramenta importante e de grande utilidade.
+As stacks são o uma facilidade da automação de infraestrutura como código (IaC) na AWS, visto que elas trazem organização, automação e consistência ao gerenciamento de infraestrutura na nuvem, o que torna o AWS CloudFormation uma ferramenta importante e de grande utilidade no gerenciamento das stacks.
 
