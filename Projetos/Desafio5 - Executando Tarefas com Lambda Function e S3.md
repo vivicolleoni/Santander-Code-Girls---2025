@@ -42,13 +42,18 @@ O objetivo é criar uma arquitetura automatizada que processa arquivos enviados 
 ![Descrição da Imagem](imagens/S3eLambda.png)
 
 
-📤 Usuário faz o upload do arquivo que criou
-        ↓
-🧩 Step 1: Grava no S3
-        ↓
-🧩 Setep2: Verifica se há arquivos
-        ↓
-🧩 Step 3: Dispara Trigger (Lambda)
-        ↓
-🧩 Setep4: Grava no Bando de Dados (DynamoDB)
-      
+### 💬 Explicação rápida
+
+- **Step 1 – S3:** o arquivo é armazenado no bucket.  
+- **Step 2 – Verificação:** a Step Function checa se há arquivos válidos.  
+- **Step 3 – Lambda Trigger:** uma função Lambda processa os dados.  
+- **Step 4 – DynamoDB:** o resultado é persistido em um banco NoSQL.  
+
+---
+----
+
+## 🌩️ Conclusão
+
+O Amazon S3 e o AWS Lambda formam uma poderosa combinação para automação de processos serverless na nuvem.
+
+Quando um arquivo é enviado (upload) para um bucket do S3, ele pode disparar automaticamente uma função Lambda, que executa tarefas sem precisar de servidores ou intervenção manual.
